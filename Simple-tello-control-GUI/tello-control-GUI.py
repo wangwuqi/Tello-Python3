@@ -64,7 +64,7 @@ button_flip_r = Button(frame_flip, text='flip right', height=1, width=10,
 
 # scrollbar to set the angle to rotate
 angle_change=Scale(frame_scale,from_=1,to=360,orient=HORIZONTAL,tickinterval=60,resolution=1,length=200)
-angle_change.grid(row=0, column=0,padx=95)
+angle_change.grid(row=0, column=1,padx=95)
 def speed_change():
     a=str(angle_change.get())
     print('rotate angle set: ', a)
@@ -73,7 +73,7 @@ angle.grid(row=1, column=0)
 
 # scrollbar to set the distance to fly
 distance_change=Scale(frame_scale,from_=20,to=500,orient=HORIZONTAL,tickinterval=100,resolution=10,length=200)
-distance_change.grid(row=0, column=1,padx=95)
+distance_change.grid(row=0, column=0,padx=95)
 def speed_change():
     d=str(distance_change.get())
     print('flying distance set: ', d)
