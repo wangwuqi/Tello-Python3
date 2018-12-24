@@ -69,7 +69,7 @@ def speed_change():
     a=str(angle_change.get())
     print('rotate angle set: ', a)
 angle=Button(frame_scale,text='angle confirm',padx=4,command=angle_change)
-angle.grid(row=1, column=0)
+angle.grid(row=1, column=1)
 
 # scrollbar to set the distance to fly
 distance_change=Scale(frame_scale,from_=20,to=500,orient=HORIZONTAL,tickinterval=100,resolution=10,length=200)
@@ -78,7 +78,7 @@ def speed_change():
     d=str(distance_change.get())
     print('flying distance set: ', d)
 distance=Button(frame_scale,text='distance confirm',padx=4,command=speed_change)
-distance.grid(row=1, column=1)
+distance.grid(row=1, column=0)
 
 
 frame0.pack()
