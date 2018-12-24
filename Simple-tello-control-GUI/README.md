@@ -29,4 +29,4 @@ The script will automatically send a command to Tello. After receiving the reply
 
 Run the tello_test.py script
 
-The command window will type each instruction and its reply. After the execution is finished, the commands will be stored in the log folder to name the test end time.
+After the execution is finished, the commands and execution information will be stored in the log.
