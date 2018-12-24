@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is forked from [dji-sdk/Tello-Python](https://github.com/dji-sdk/Tello-Python) and is based on **python3**. It contains some simple codes for Ryze Tello drone control.
+This repository is forked from [dji-sdk/Tello-Python](https://github.com/dji-sdk/Tello-Python) and based on **python3**. It contains some simple codes for Ryze Tello drone control.
 
 ## Environmental configuration
 
